@@ -1,0 +1,19 @@
+h1{
+    background-color: blue;
+
+}
+p{
+    background-color: red;
+}
+h2{
+    background-color: green;
+}
+#p2{
+    background-color: yellow;
+}
+
+.estilo{
+    background-color: coral;
+    height: 200px;
+    width: 600px;
+}
