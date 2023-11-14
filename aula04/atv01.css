@@ -1,0 +1,8 @@
+body{
+    background-image: url(img01.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-attachment: scroll;
+    margin-right: 200px;
+}
