@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+}
+.box{
+    width: 80%;
+    display: grid;
+    grid-template-areas: "cabe cabe"
+                         "cont lat"
+                         "pe pe";
+    grid-template-columns: 800px 1fr;
+    grid-template-rows: 200px 500px 100px;
+}
+header{
+    background-color: red;
+    grid-area: cabe;
+}
+section{
+    grid-area: cont;
+    display: flex;
+    flex-direction: column;
+}
+.c1, .c2, .c3{
+    height: 33.3%;
+    width: 100%;
+}
+.c1{
+    background-color: green;
+}
+.c2{
+    background-color:  blue;
+}
+.c3{
+    background-color: gold;
+}
+aside{
+    background-color: yellow;
+    grid-area: lat;
+}
+footer{
+    grid-area: pe;
+    display: flex;
+    flex-direction: row;
+}
+.p1, .p2, .p3{
+    width: 33.3%;
+    background-color: blueviolet;
+}
+.p2{
+    background-color: tomato;
+}
